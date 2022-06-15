@@ -1,0 +1,17 @@
+{
+  "name": "tinder-backend",
+  "version": "1.0.0",
+  "description": "Backend For Tinder Clone",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Nutifafa Afi Attor",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.3.8"
+  }
+}
