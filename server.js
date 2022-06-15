@@ -12,7 +12,7 @@ const connectionURL = `mongodb+srv://tinder-clone-admin:admin-tinder-clone@clust
 // Database Config
 mongoose.connect(connectionURL, {
     useNewUrlParser: true,
-    useCreateIndex: true,
+    // useCreateIndex: true,
     useUnifiedTopology: true,
 })
 
@@ -20,6 +20,8 @@ mongoose.connect(connectionURL, {
 app.get("/", (req, res) => {
     res.status(200).send("Hello World!");
 })
+
+app.post("/tinder/cards", (req, res) => {})
 
 // Listener
 app.listen(port, () => {
